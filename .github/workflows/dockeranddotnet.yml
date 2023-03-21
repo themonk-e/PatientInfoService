@@ -10,7 +10,7 @@ jobs:
 
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     env:
       Solution_Name: PatientInfoService.sln                         # Replace with your solution name, i.e. MyWpfApp.sln.
