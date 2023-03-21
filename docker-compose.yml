@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  patientinfoservice:
+    image: ${DOCKER_REGISTRY-}patientinfoservice
+    build:
+      context: .
+      dockerfile: PatientInfoService/Dockerfile
